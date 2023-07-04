@@ -20,10 +20,10 @@ def sum(a,b,c):
 def checkwin(xstate,ystate):
     win=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
     for i in win:
-        if sum(xstate[win[0]], xstate[win[1]], xstate[win[2]] )==3:
+        if sum(xstate[i[0]], xstate[i[1]], xstate[i[2]] )==3:
             print("X won the match")
             return 1
-        if sum(ystate[win[0]], ystate[win[1]], ystate[win[2]] )==3:
+        if sum(ystate[i[0]], ystate[i[1]], ystate[i[2]] )==3:
             print("O won the match")
             return 0
     return -1
