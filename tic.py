@@ -36,7 +36,7 @@ if __name__=="__main__":
     while True:
         game(xstate,ystate)
         if turn==1:
-            print(X's chance)
+            print("X's chance")
             value= int(input("in which slot you want to deploy: "))
             if value>=0 and value<=8:
                 xstate[value]=1
@@ -44,7 +44,7 @@ if __name__=="__main__":
                 print("please give a valid slot number.")
             
         else:
-            print(O's chance)
+            print("O's chance")
             value= int(input("in which slot you want to deploy: "))
             if value>=0 and value<=8:
                 ystate[value]=1
