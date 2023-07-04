@@ -12,7 +12,7 @@ def game(xtate,ystate):
     print(f"__|___|__")
     print(f"{three} | {four} | {five}")
     print(f"__|___|__")
-    print(f"{six} | {seven }| {eight}")
+    print(f"{six} | {seven } | {eight}")
 
 def sum(a,b,c):
     return a+b+c
