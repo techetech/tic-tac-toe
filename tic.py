@@ -1,6 +1,6 @@
 def game(xtate,ystate):
     zero="X" if xtate[0] else("O" if ystate[0] else 0)
-    one="X" if xtate[1] else("O" if ystate[1] else 1)
+    one="X" if xtate[1] else("O" if ystate[1] else 1 )
     two="X" if xtate[2] else("O" if ystate[2] else 2)
     three="X" if xtate[3] else("O" if ystate[3] else 3)
     four="X" if xtate[4] else("O" if ystate[4] else 4)
@@ -8,11 +8,11 @@ def game(xtate,ystate):
     six="X" if xtate[6] else("O" if ystate[6] else 6)
     seven="X" if xtate[7] else("O" if ystate[7] else 7)
     eight="X" if xtate[8] else("O" if ystate[8] else 8)
-    print(f"{zero}|{one}|{two}")
+    print(f"{zero} | {one} | {two} ")
     print(f"__|___|__")
-    print(f"{three}|{four}|{five}")
+    print(f"{three} | {four} | {five}")
     print(f"__|___|__")
-    print(f"{six}|{seven}|{eight}")
+    print(f"{six} | {seven }| {eight}")
 
 def sum(a,b,c):
     return a+b+c
