@@ -50,7 +50,7 @@ if __name__=="__main__":
                 ystate[value]=1
             else:
                 print("please give a valid slot number.")
-        c=checkwin()
+        c=checkwin(xstate,ystate)
         if c!=-1:
             print("Match Over")
             break
